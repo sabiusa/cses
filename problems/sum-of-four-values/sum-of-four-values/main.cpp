@@ -46,14 +46,12 @@ int main() {
                 return 0;
             } else {
                 --j;
-                continue;
             }
-        }
-        if (sum > x) {
+        } else if (sum > x) {
             --j;
-            continue;
+        } else {
+            ++i;
         }
-        ++i;
     }
     
     cout << "IMPOSSIBLE" << "\n";
