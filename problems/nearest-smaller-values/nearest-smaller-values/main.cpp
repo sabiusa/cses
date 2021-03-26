@@ -14,13 +14,16 @@ using namespace std;
 #define ull unsigned long long
  
 int main() {
-    ll n, x;
+    ll n;
     stack<pair<ll, ll>> sk;
     
     cin >> n;
+    ll arr[n + 1];
     for (ll i = 1; i <= n; ++i) {
-        cin >> x;
-        while (!sk.empty() && sk.top().first >= x) {
+        cin >> arr[i];
+    }
+    for (ll i = 1; i <= n; ++i) {
+        while (!sk.empty() && sk.top().first >= arr[i]) {
             sk.pop();
         }
         if (sk.empty()) {
@@ -28,7 +31,7 @@ int main() {
         } else {
             cout << sk.top().second << " ";
         }
-        sk.push({x, i});
+        sk.push({arr[i], i});
     }
     cout << "\n";
     
