@@ -20,20 +20,14 @@ int main() {
     cin >> n;
     for (ll i = 1; i <= n; ++i) {
         cin >> x;
+        while (!sk.empty() && sk.top().first >= x) {
+            sk.pop();
+        }
         if (sk.empty()) {
             cout << 0 << " ";
         } else {
-            while (!sk.empty()) {
-                if (sk.top().first < x) {
-                    cout << sk.top().second << " ";
-                    goto push;
-                } else {
-                    sk.pop();
-                }
-            }
-            cout << 0 << " ";
+            cout << sk.top().second << " ";
         }
-push:
         sk.push({x, i});
     }
     cout << "\n";
