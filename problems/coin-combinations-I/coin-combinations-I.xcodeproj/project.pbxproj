@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77E07171261718B600ECD8F3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77E07170261718B600ECD8F3 /* main.cpp */; };
+		77E071792617237100ECD8F3 /* coins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77E071782617237100ECD8F3 /* coins.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		77E0716D261718B600ECD8F3 /* coin-combinations-I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "coin-combinations-I"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E07170261718B600ECD8F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77E071782617237100ECD8F3 /* coins.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coins.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				77E07170261718B600ECD8F3 /* main.cpp */,
+				77E071782617237100ECD8F3 /* coins.cpp */,
 			);
 			path = "coin-combinations-I";
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E071792617237100ECD8F3 /* coins.cpp in Sources */,
 				77E07171261718B600ECD8F3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
