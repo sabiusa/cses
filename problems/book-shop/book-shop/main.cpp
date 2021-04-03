@@ -25,21 +25,21 @@ int main() {
         cin >> s[i];
     }
     
-    int m[n+1][x+1];
-    memset(m, 0, sizeof(m));
+    int mem[n+1][x+1];
+    memset(mem, 0, sizeof(mem));
     for (ll i = 1; i <= n; ++i) {
         int pr = p[i-1]; // price
         int pg = s[i-1]; // pages count
         for (int j = 0; j <= x; ++j) {
-            int pre = m[i-1][j]; // prev count
+            int pre = mem[i-1][j]; // prev count
             if (j < pr) {
-                m[i][j] = pre;
+                mem[i][j] = pre;
             } else {
-                m[i][j] = max(pre, m[i-1][j-pr] + pg);
+                mem[i][j] = max(pre, mem[i-1][j-pr] + pg);
             }
         }
     }
-    cout << m[n][x] << endl;
+    cout << mem[n][x] << endl;
     
     return 0;
 }
