@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77EFAD932617853B005C3822 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EFAD922617853B005C3822 /* main.cpp */; };
+		77EFAD9B2618224E005C3822 /* bookshop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EFAD9A2618224E005C3822 /* bookshop.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		77EFAD8F2617853B005C3822 /* book-shop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "book-shop"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EFAD922617853B005C3822 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77EFAD9A2618224E005C3822 /* bookshop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bookshop.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				77EFAD922617853B005C3822 /* main.cpp */,
+				77EFAD9A2618224E005C3822 /* bookshop.cpp */,
 			);
 			path = "book-shop";
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77EFAD9B2618224E005C3822 /* bookshop.cpp in Sources */,
 				77EFAD932617853B005C3822 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
