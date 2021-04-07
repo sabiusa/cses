@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77234514261CD57A000B9E8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77234513261CD57A000B9E8A /* main.cpp */; };
+		7723455E261DE26F000B9E8A /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7723455D261DE26F000B9E8A /* game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		77234510261CD57A000B9E8A /* removal-game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "removal-game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77234513261CD57A000B9E8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7723455D261DE26F000B9E8A /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				77234513261CD57A000B9E8A /* main.cpp */,
+				7723455D261DE26F000B9E8A /* game.cpp */,
 			);
 			path = "removal-game";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77234514261CD57A000B9E8A /* main.cpp in Sources */,
+				7723455E261DE26F000B9E8A /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
