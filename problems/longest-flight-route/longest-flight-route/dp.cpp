@@ -28,7 +28,7 @@ ll dfs(ll cur, ll n) {
         if (vis[a] == 0) {
             dfs(a, n);
         }
-        if (mem[a] == -1) {
+        if (mem[a] == -1) { // to guarantee that we are on path that leads to n
             continue;
         }
         if (mem[a] + 1 > mem[cur]) {
