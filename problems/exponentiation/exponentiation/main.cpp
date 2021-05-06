@@ -23,13 +23,23 @@ ll expo(ll a, ll b, ll m) {
     return res;
 }
 
+ll expo_it(ll a, ll b, ll m) {
+    ll res = 1;
+    while (b) {
+        if (b % 2) res = (res * a) % m;
+        a = (a * a) % m;
+        b /= 2;
+    }
+    return res;
+}
+
 int main() {
     ll n, a, b;
     
     cin >> n;
     while (n--) {
         cin >> a >> b;
-        cout << expo(a, b, MOD) << "\n";
+        cout << expo_it(a, b, MOD) << "\n";
     }
     
     return 0;
