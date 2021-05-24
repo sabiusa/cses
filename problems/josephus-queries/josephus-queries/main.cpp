@@ -18,7 +18,9 @@ const ll N = 1e5;
 ll calc(ll n, ll k) {
     if (n <= 1) return 1;
     if (k <= (n+1)/2) {
-        if (2*k > n) return 2*k % n;
+        if (2*k > n) {
+            return 2*k % n;
+        }
         else return 2*k;
     }
     ll m = calc(n/2, k - (n+1)/2);
