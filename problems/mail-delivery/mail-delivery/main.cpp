@@ -73,7 +73,7 @@ void dfs_path(ll i) {
             } else {
                 temp.push_front(next);
                 adj[a].pop_back();
-                del[to_string(next) + "-" + to_string(a)] = 1;
+                del[to_string(next) + "-" + to_string(a)] = 1; // save as id for deletion later
             }
         }
     }
