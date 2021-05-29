@@ -68,7 +68,7 @@ void dfs_path(ll i) {
             path.push_front(a);
         } else {
             ll next = adj[a].back();
-            if (del[to_string(a) + "-" + to_string(next)]) {
+            if (del[to_string(a) + "-" + to_string(next)]) { // delete saved id
                 adj[a].pop_back();
             } else {
                 temp.push_front(next);
