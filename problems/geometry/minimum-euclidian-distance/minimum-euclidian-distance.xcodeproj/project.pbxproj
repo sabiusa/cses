@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77FFD58B267246B70061C424 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77FFD58A267246B70061C424 /* main.cpp */; };
+		77FFD5932673D6EB0061C424 /* dist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77FFD5922673D6EA0061C424 /* dist.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		77FFD587267246B70061C424 /* minimum-euclidian-distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "minimum-euclidian-distance"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FFD58A267246B70061C424 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77FFD5922673D6EA0061C424 /* dist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dist.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				77FFD58A267246B70061C424 /* main.cpp */,
+				77FFD5922673D6EA0061C424 /* dist.cpp */,
 			);
 			path = "minimum-euclidian-distance";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77FFD58B267246B70061C424 /* main.cpp in Sources */,
+				77FFD5932673D6EB0061C424 /* dist.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
