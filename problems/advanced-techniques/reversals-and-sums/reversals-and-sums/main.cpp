@@ -111,12 +111,6 @@ void print_treap(Node *node) {
     print_treap(node->right);
 }
 
-void print_sum(Node* treap, ll sum) {
-    if (treap == NULL) return;
-    propagete(treap);
-    
-}
-
 ll calc_sum(Node* treap, int a, int b) {
     Node *left, *mid, *right;
     split(treap, left, mid, a-1);
