@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		777BE3C726AB04E600C41CE2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 777BE3C626AB04E600C41CE2 /* main.cpp */; };
+		77AC2D8026AD3A26006A6F68 /* subg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77AC2D7F26AD3A26006A6F68 /* subg.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		777BE3C326AB04E600C41CE2 /* eulerian-subgraphs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "eulerian-subgraphs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		777BE3C626AB04E600C41CE2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77AC2D7F26AD3A26006A6F68 /* subg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = subg.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				777BE3C626AB04E600C41CE2 /* main.cpp */,
+				77AC2D7F26AD3A26006A6F68 /* subg.cpp */,
 			);
 			path = "eulerian-subgraphs";
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AC2D8026AD3A26006A6F68 /* subg.cpp in Sources */,
 				777BE3C726AB04E600C41CE2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
